@@ -1,13 +1,13 @@
 src/*.exe
 src/lutinum
-# src/lutinumd
+src/lutinumd
 src/test_lutinum
 .*.swp
 *.*~*
 *.bak
 *.rej
 *.orig
-# *.o
+*.o
 *.patch
 .lutinum
 
@@ -31,4 +31,4 @@ qrc_*.cpp
 .DS_Store
 build
 
-# !src/leveldb*/Makefile
+!src/leveldb*/Makefile
